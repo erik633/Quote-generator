@@ -1,0 +1,63 @@
+* {
+	font-family: 'Gloria Hallelujah';
+}
+
+body {
+	margin: 0px;
+	background-image: url('https://cdn.pixabay.com/photo/2013/05/30/09/25/board-114656_960_720.jpg');
+	background-size: cover;
+}
+
+header {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+header > p {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+button {
+  	margin: 0 auto;
+  	display: block;
+  	color: black;
+	text-transform: uppercase;
+	background: #ffffff;
+	padding: 20px;
+	border: 4px solid darkgreen;
+	border-radius: 6px;
+	transition: all 0.3s ease 0s;
+	font-size: 15px;
+	font-family: 'Gloria Hallelujah';
+}
+
+
+button:hover {
+	color: #494949;
+	border-radius: 50px;
+	border-color: darkgreen;
+	transition: all 0.3s ease 0s;
+}
+
+
+
+#quote {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	font-style: italic
+}
+
+#author {
+	margin-top: 1%;
+	text-align: right;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
